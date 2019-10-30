@@ -21,6 +21,7 @@ class _HomePage extends State<HomePage> with AutomaticKeepAliveClientMixin{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Column(
+
       children: <Widget>[
         navbar(context),
         Expanded(
