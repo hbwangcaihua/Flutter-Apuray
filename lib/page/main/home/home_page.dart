@@ -110,7 +110,7 @@ class _HomePage extends State<HomePage> with AutomaticKeepAliveClientMixin{
                           borderRadius: BorderRadius.only(topRight:Radius.circular(21), bottomRight: Radius.circular(21) ),
                           boxShadow: [
                             BoxShadow(
-                              color: Color(0x5F36F3F1),
+                              color: Color(0x3F36F3F1),
                               offset: Offset(0, 0), //阴影位置
                               blurRadius: 10, //阴影模糊度
                             )
@@ -129,7 +129,7 @@ class _HomePage extends State<HomePage> with AutomaticKeepAliveClientMixin{
                             borderRadius: BorderRadius.all(Radius.circular(21)),
                             boxShadow: [
                               BoxShadow(
-                                color: Color(0x5F36F3F1),
+                                color: Color(0x3F36F3F1),
                                 offset: Offset(0, 0), //阴影位置
                                 blurRadius: 10, //阴影模糊度
                               )
@@ -197,7 +197,7 @@ class _HomePage extends State<HomePage> with AutomaticKeepAliveClientMixin{
           borderRadius: BorderRadius.all(Radius.circular(25)),
           boxShadow: [
             BoxShadow(
-                color: Color(0x5F36F3F1),
+                color: Color(0x3F36F3F1),
                 offset: Offset(0, 0), //阴影位置
                 blurRadius: 10, //阴影模糊度
             )

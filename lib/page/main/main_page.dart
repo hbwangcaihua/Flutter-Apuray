@@ -54,6 +54,7 @@ class _MainPage extends State<MainPage>{
 //          _pageController.jumpToPage(i);
 //        },
 //      ),
+        backgroundColor: Colors.white,
         bottomNavigationBar:Container(
           width: double.infinity,
           height: 49,

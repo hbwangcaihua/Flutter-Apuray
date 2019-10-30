@@ -3,10 +3,24 @@ import 'package:flutter/material.dart';
 import 'page/welcome/welcome_page.dart';
 import 'page/login/login_page.dart';
 import 'package:apuray/page/main/main_page.dart';
+import 'package:flutter/services.dart';
+
 
 //void main() => runApp(MyApp());
 
-void main() => runApp(ApuRayApp());
+void main(){
+  SystemChrome.setSystemUIOverlayStyle(
+      SystemUiOverlayStyle(
+        systemNavigationBarColor: Color(0xFF000000),
+        systemNavigationBarDividerColor: null,
+        statusBarColor: null,
+        systemNavigationBarIconBrightness: Brightness.light,
+        statusBarIconBrightness: Brightness.dark,
+        statusBarBrightness: Brightness.light,
+      )
+  );
+  runApp(ApuRayApp());
+}
 
 class ApuRayApp extends StatelessWidget{
 

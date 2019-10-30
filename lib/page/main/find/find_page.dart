@@ -21,6 +21,7 @@ class _FindPage extends State<FindPage> with AutomaticKeepAliveClientMixin{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
