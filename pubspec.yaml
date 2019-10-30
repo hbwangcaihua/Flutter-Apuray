@@ -53,6 +53,14 @@ flutter:
   - static/images/maintab_message_hl.png
   - static/images/home_headicon.png
   - static/images/find_location.png
+  - static/images/home_self.png
+  - static/images/home_set.png
+  - static/images/home_menu1.png
+  - static/images/home_menu2.png
+  - static/images/home_menu3.png
+  - static/images/home_menu4.png
+  - static/images/home_mylocation.png
+  - static/images/home_find.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

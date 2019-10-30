@@ -18,7 +18,7 @@ class MainPage extends StatefulWidget{
 
 class _MainPage extends State<MainPage>{
 
-  int _currentIndex = 1;
+  int _currentIndex = 0;
   List<Widget> pages = new List();
   PageController _pageController = PageController();
 

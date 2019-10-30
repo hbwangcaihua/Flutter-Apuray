@@ -27,7 +27,7 @@ class _FindPage extends State<FindPage> with AutomaticKeepAliveClientMixin{
           Container(
             height: 63,
             padding: EdgeInsets.only(top: 27,left: 20),
-            child: Text("发现",style: TextStyle(color: Color(0xFF212121),fontSize: 24,fontWeight: FontWeight.w600),),
+            child: Text("发现",style: TextStyle(color: Color(0xFF616161),fontSize: 24,fontWeight: FontWeight.w600),),
           ),
           Expanded(child: ListView.builder(
             itemCount: 20,
