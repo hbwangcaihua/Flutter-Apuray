@@ -171,14 +171,20 @@ class _HomePage extends State<HomePage> with AutomaticKeepAliveClientMixin{
                   ),
                 ),
                 Container(
-                  color: Colors.red,
-                  height: 97,
-                  width: 97,
+                  height: 137,
+                  width: 137,
+                  child: findingViews(context),
                 ),
               ],
             ),
             Center(
               child: Image(image: AssetImage("static/images/home_mylocation.png"),width:32,height:40),
+            ),
+            Center(
+              child: Container(
+                padding: EdgeInsets.only(bottom: 10),
+                child: Image(image: AssetImage("static/images/home_headicon.png"),width:26,height:26),
+              ),
             ),
           ],
         ),
@@ -266,6 +272,40 @@ class _HomePage extends State<HomePage> with AutomaticKeepAliveClientMixin{
           ],
         ),
       ),
+    );
+  }
+
+  //搜寻区域
+  Widget findingViews(BuildContext context){
+    return Stack(
+      alignment: Alignment.center,
+      children: <Widget>[
+        Container(
+          width: 97,
+          height: 97,
+          decoration: BoxDecoration(
+            color: Color(0x3F36F3F1),
+            borderRadius: BorderRadius.all(Radius.circular(97/2)),
+          ),
+        ),
+        Container(
+          width: 73,
+          height: 73,
+          decoration: BoxDecoration(
+            color: Color(0x3F36F3F1),
+            borderRadius: BorderRadius.all(Radius.circular(73/2)),
+          ),
+        ),
+        Container(
+          width: 51,
+          height: 51,
+          decoration: BoxDecoration(
+            color: Color(0x3F36F3F1),
+            borderRadius: BorderRadius.all(Radius.circular(51/2)),
+          ),
+        ),
+        Image(image: AssetImage("static/images/home_send.png"),width:41,height:41)
+      ],
     );
   }
 
